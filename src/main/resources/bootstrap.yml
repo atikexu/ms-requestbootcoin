@@ -1,0 +1,17 @@
+status:
+  property: requestbootcoin  Profile Dev
+server:
+  port: 8097
+spring:
+  application:
+    name: requestbootcoin
+  data:
+    mongodb:
+      url: mongodb://localhost:27017/requestbootcoin
+#      database: Credits
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
